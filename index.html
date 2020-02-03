@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WatchingISS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/27bd457aa2.js"></script>
+
+    <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+</head>
+<body>
+    <header>
+        <div class="coordinates-ISS">
+            <h2>ISS is now located at:</h2>
+            <p id='data-location-ISS'></p>
+        </div>
+        <div class="time-UTC">
+            <h2 id="time-hours">Current UTC time:</h2>
+            <p id="time-data"></p>
+        </div>
+    </header>
+    <main>
+        <div id="map-wrapper" class="map-ISS"><div id="map"></div></div>
+        <div id="crewWrapper" class="crew-ISS"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

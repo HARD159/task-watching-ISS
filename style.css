@@ -1,0 +1,86 @@
+body {
+    padding: 15px;
+    margin: 0;
+    background-color: #ccc;
+    min-width: 800px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+header {
+    margin-bottom: 10px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coordinates-ISS {
+    margin-right: 10px;
+    height: 100px;
+    width: calc(70% - 5px);
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+.coordinates-ISS p {
+    margin-left: 10px;
+}
+
+
+.time-UTC {
+    height: 100px;
+    width: calc(30% - 5px);
+    background-color: whitesmoke;
+}
+
+.time-UTC p {
+    margin-left: 10px;
+}
+
+main {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-ISS {
+    margin-right: 10px;
+    height: 500px;
+    width: calc(70% - 5px);
+    background-color: whitesmoke;
+}
+
+.map-now-ISS {
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.crew-ISS {
+    height: 500px;
+    width: calc(30% - 5px);
+    background-color: whitesmoke;
+}
+
+.crew-piople {
+    margin: 10px;
+    padding-left: 30px;
+    height: 50px;
+    width: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.crew-piople p {
+    margin-left: 10px;
+}
+
